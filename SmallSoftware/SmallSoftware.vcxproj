@@ -138,6 +138,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="Scanner.cpp" />
+    <ClCompile Include="SymbolTable.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="Scanner.h" />
+    <ClInclude Include="SymbolTable.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
